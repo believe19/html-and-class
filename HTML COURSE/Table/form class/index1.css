@@ -1,0 +1,21 @@
+header{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+   max-width: 100%;
+}
+.banner .welcome{
+    padding: 30px;
+    background-color: #feb614; color: white;
+    position: absolute;
+    left: 0;
+    top: auto;
+}
+.banner h2{
+    font-size: 74px;
+}

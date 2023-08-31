@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header .container{
+    position: fixed;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 41);
+    padding: 1% 3%;
+}
+header .container nav{
+    flex: 1;
+    text-align: center;
+}
+header .container nav ul li{
+    display: inline-block;
+    /* text-decoration: none; */
+}
+.logo a h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a h1 span{
+    color: deeppink;
+}
+nav{
+    padding: 20px;
+    /* position: sticky; */
+    top: 100%;
+}
+.active{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.active-2{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.active-3{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.active-4{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.active-5{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.help{
+    margin-right: 5%;
+    color: white;
+}
+
+.help a{
+    padding: 1px;
+    color: aquamarine;
+    text-decoration: none;
+}
+.account p a{
+    color: red;
+}

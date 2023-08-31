@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: azure;
+    margin: 100px auto;
+    width: 70vw;
+    height: 90vh;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 60px 400px 60px;
+}
+
+header, nav, div, footer{
+    color: white;
+    padding: 0.6em;
+}
+
+header{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+nav{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+div{
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+footer{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}

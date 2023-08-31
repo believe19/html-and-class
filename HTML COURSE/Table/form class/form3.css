@@ -1,0 +1,38 @@
+/* *{
+    margin-left: 50px;
+} */
+h1{
+    margin-top: 100px; margin-left: 170px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form{
+    margin-left: 170px;
+}
+p{
+    margin-left: 170px;
+}
+.sign{
+    color: blue;
+}
+.login{
+    font-size: larger; border-radius: 10px;
+    padding: 10px 150px; text-align: center;border-collapse: collapse; border: 0ch; background-color: blue;
+}
+.password{
+    padding: 10px 182px; border-radius: 10px;  margin-top: 8px;
+}
+.email{
+    padding: 10px 182px; border-radius: 10px; margin-top: 8px;
+}
+.credentails{
+    padding: 10px 182px; border-radius: 10px; text-align: center; margin-top: 40px; 
+}
+.cre{
+    margin-bottom: 20px; font-size: medium; font-display: light;
+}
+.forget{
+    color: blue; padding-right: 20px; margin-left: 350px;
+}
+.or{
+    margin-left: 250px;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    border: 2px solid blue;
+    height: 70vh;
+    width: 20%;
+    margin: 150px auto;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 6 6 6 black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+}
+
+input{
+    height: 4vh;
+    width: 80%;
+    margin: 0.4em;
+    /* border: none; */
+    border-radius: 5px;
+
+}
+
+h1, p, h4{
+    padding-bottom: 0.1em;
+    text-align: center;
+    margin: 1em;
+}
+
+/* form input:nth-child(1){
+    padding:  1em;
+} */

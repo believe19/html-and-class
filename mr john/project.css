@@ -1,0 +1,19 @@
+.container{
+    border:3px solid green;
+    height: 340px;
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+}
+.box{
+    background-color: green;
+    color: aliceblue;
+    padding: 1.5em;
+    width: fit-content;
+    border: 1px solid white;
+    height: 4%;
+    flex-grow: 1;
+}
+.Box6{
+    align-self: center;
+}

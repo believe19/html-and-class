@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+background-color: #18122b; width: 800px;
+margin: 0 auto ;
+}
+
+/* #form-wrapper{
+    padding: 20px 40px;
+} */
+
+.full-name{
+    padding:20px 10px;
+}
+
+.full-name label{
+    color: #fff; font-size: 18px;
+}
+
+.full-name input{
+    border: none; outline: none; background-color: #b3005e; 
+    color: #fff; padding: 10px 15px;
+    font-size: 14px; border-radius:30px  ;
+}
+.email{
+    padding:20px 10px;
+}
+
+.email label{
+    color: #fff; font-size: 18px;
+}
+
+.email input{
+    border: none; outline: none; background-color: #b3005e; 
+    color: #fff; padding: 10px 15cvpx;
+    font-size: 14px; border-radius:30px  ;
+}
+
+.password{
+    padding:20px 10px;
+}
+
+.password label{
+    color: #fff; font-size: 18px;
+}
+
+.password input{
+    border: none; outline: none; background-color: #b3005e; 
+    color: #fff; padding: 10px 15px;
+    font-size: 14px; border-radius:30px  ;
+}
+
+h1{
+    background-color: aquamarine; color: #2b1212; font-size: medium;
+}
+
+#heading{
+    background-color: #b3005e;
+    width: 300px;
+    height: 200px;
+}
+.container h1{
+    color:rgb(196, 14, 14); font-size: 1rem ;
+}
+.row{
+    width: 200px;
+    height: 200px;
+    background-color: #b30000;
+}
+input::placeholder{
+    color: aqua; font-size: 3rem;
+}
+input[type="checkbox"]{
+    outline: 5px solid rgb(207, 200, 200);
+}
+img{
+width: 50%;
+}
+.div{
+    min-width:100%;
+    width: 60%;
+    height: 200px;
+    background-color: green;
+}
+.padding{
+    background-color: brown;
+    padding: 100px;
+}
+.leave-in{
+    padding: 200px;
+    background-color:burlywood ;
+}

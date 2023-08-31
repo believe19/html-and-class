@@ -1,0 +1,20 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.div-1{
+    width: 200px;height: 200px; background-color: goldenrod;
+    /* position: relative; */
+}
+.div-4{
+    width: 200px; height: 200px; background-color: gold;
+    /* position: absolute; */
+    top: 0;
+}
+.hero.img{
+    position: absolute;
+    /* top: 0; */
+    /* z-index: -71; */
+}
+.hero.text{
+    position: relative;
+}

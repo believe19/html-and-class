@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 400px;
+    height: 65vh;
+    margin: 150px auto;
+    display: grid;
+    /* gap: 30px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 70px 300px 70px; */
+}
+.box{
+    color: aqua;
+    background-color: black;
+    padding: 0.7em;
+    border: 2px solid gold;
+}
+.box2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box1{
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
